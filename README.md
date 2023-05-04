@@ -3,9 +3,7 @@
 
 <div align="center">
  
-  <img src="logo jojo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
+ 
   <h3><b>mobil</b></h3>
 
 </div>

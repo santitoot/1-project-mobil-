@@ -17,11 +17,11 @@ nav {
   justify-content: space-between;
 }
 
-p {
+a {
   font-size: 16px;
 }
 
-nav > p {
+nav > a {
   display: flex;
   align-items: center;
   text-align: center;
@@ -59,7 +59,7 @@ nav > p {
   padding: 24px;
 }
 
-.profile > header > h1 {
+.profile > h1 {
   line-height: 52px;
   color: #172b4d;
 }
@@ -72,20 +72,29 @@ nav > p {
   color: #344563;
 }
 
-.profile > footer {
+.profile {
   margin-top: 12px;
 }
 
-.profile > footer > p {
+.profile > p {
   text-transform: uppercase;
   color: #7f8cff;
+  margin-top: 20px;
 }
 
-.profile > footer > .social {
-  margin-top: 12px;
+.social-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
 }
 
-.profile > footer > .social > a {
+.social-container ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.social-container li {
   margin-right: 20px;
 }
 

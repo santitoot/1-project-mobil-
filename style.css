@@ -72,7 +72,7 @@ nav > a {
   color: #344563;
 }
 
-.profile > footer {
+.profile {
   margin-top: 12px;
 }
 
@@ -84,18 +84,18 @@ nav > a {
 
 .social-container {
   display: flex;
-  justify-content: flex-start ; 
+  justify-content: flex-start;
   margin-top: 20px;
 }
 
 .social-container ul {
   display: flex;
-  justify-content: flex-start; 
-  list-style: none; 
+  justify-content: flex-start;
+  list-style: none;
 }
 
 .social-container li {
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
 *,
